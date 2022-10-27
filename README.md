@@ -52,3 +52,21 @@ Run the linter with the following command either in the terminal of an editor, s
 $ npm run lint
 ```
 
+## Create the add-in project
+For more information, please refer to the following link: <br/>
+https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery?tabs=yeomangenerator#create-the-add-in-project
+
+Run the following command to create an add-in project using the **Yeoman generator**.
+```powershell
+$ yo office
+```
+
+When prompted, provide the following information to create your add-in project.
+
+* **Choose a project type:** `Office Add-in Task Pane project`
+* **Choose a script type:** `Javascript`
+* **What do you want to name your add-in?** `My Office Add-in`
+* **Which Office client application would you like to support?** `Excel`
+
+After you complete the wizard, the generator creates the project and installs supporting Node components.
+
