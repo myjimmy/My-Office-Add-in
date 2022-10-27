@@ -1,5 +1,5 @@
 # My-Office-Add-in
-Build an Excel task pane add-in using Office Add-in.
+[Build an Excel task pane add-in](https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery?tabs=yeomangenerator) using Office Add-in.
 
 ---
 ## Prerequisites
