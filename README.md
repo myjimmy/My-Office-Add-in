@@ -103,3 +103,13 @@ The add-in project that you've created with the Yeoman generator contains sample
 5. At the bottom of the task pane, choose the **Run** link to set the color of the selected range to yellow.
    ![Alt text](help/run-add-in.png?raw=true)
 
+6. In order to change the color when clicking "Run" in the task pane, complete the following steps.
+
+  * Open `src/taskpane/taskpane.js` file and go to the line number 28 and change the "yellow" to "red".
+    ![Alt text](help/fill-color-code-position.png?raw=true)
+
+  * At the top of the task pane, click the allow button and click the **Reload** item.
+    ![Alt text](help/add-in-reload-button.png?raw=true)
+
+  * At the bottom of the task pane, choose the **Run** link to set the color of the selected range to red.
+    ![Alt text](help/add-in-change-red.png?raw=true)
